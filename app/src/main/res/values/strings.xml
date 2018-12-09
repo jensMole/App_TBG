@@ -1,12 +1,14 @@
 <resources>
-    <string name="app_name">TBG</string>
+    <string name="app_name" translatable="false">TBG</string>
 
     <string name="navigation_drawer_open">Open Navigation drawer</string>
     <string name="navigation_drawer_close">Close Navigation drawer</string>
-    <string name="home_menu">Home</string>
-    <string name="video_s_menu">Video\'s</string>
+    <string name="home_menu" translatable="false">Home</string>
+    <string name="video_s_menu" translatable="false">Video\'s</string>
     <string name="aankondigingen_menu">Aankondigingen</string>
-    <string name="contact_menu">Contact</string>
-    <string name="name_header">TheBelgiumGames</string>
-    <string name="mail_header">the.belgiumg@gmail.com</string>
+    <string name="contact_menu" translatable="false">Contact</string>
+    <string name="name_header" translatable="false">TheBelgiumGames</string>
+    <string name="mail_header" translatable="false">the.belgiumg@gmail.com</string>
+    <string name="frontPageText">Gegevens worden afgehaald. Zorg dat je wifi of 4G hebt aan staan.</string>
+
 </resources>

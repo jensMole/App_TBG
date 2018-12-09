@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Open navigatie</string>
+    <string name="navigation_drawer_close">sluit navigatie</string>
+    <string name="aankondigingen_menu">Aankondigingen</string>
+    <string name="frontPageText">Gegevens worden afgehaald. Zorg dat je wifi of 4G hebt aan staan.</string>
+</resources>

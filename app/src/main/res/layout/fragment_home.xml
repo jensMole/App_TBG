@@ -4,11 +4,95 @@
     android:layout_height="match_parent"
     android:background="@color/colorBackground">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Home"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textHomePage"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="75dp"
+            android:fontFamily="serif"
+            android:text="@string/frontPageText"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/tekstHomePage"-->
+        <!--android:layout_width="339dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="75dp"-->
+        <!--android:fontFamily="serif"-->
+        <!--android:text="@string/frontPageText"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@android:color/background_dark"-->
+        <!--android:textSize="20sp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--<WebView-->
+        <!--android:id="@+id/webViewYouTube"-->
+        <!--android:layout_width="342dp"-->
+        <!--android:layout_height="210dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/tekstHomePage"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/tekstHomePage"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/tekstHomePage" />-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/twitterButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="@null"-->
+        <!--android:contentDescription="@string/twitter"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/tekstHomePage"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/webViewYouTube"-->
+        <!--app:srcCompat="@mipmap/twitter" />-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/youtubeButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--android:layout_marginStart="50dp"-->
+        <!--android:background="@null"-->
+        <!--android:contentDescription="@string/youtube"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/twitterButton"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/twitterButton"-->
+        <!--app:srcCompat="@mipmap/yt" />-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/fbButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="50dp"-->
+        <!--android:layout_marginRight="50dp"-->
+        <!--android:background="@null"-->
+        <!--android:contentDescription="@string/facebook"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/instaButton"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/youtubeButton"-->
+        <!--app:srcCompat="@mipmap/fb" />-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/instaButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@null"-->
+        <!--android:contentDescription="@string/instagram"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/tekstHomePage"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/fbButton"-->
+        <!--app:srcCompat="@mipmap/insta" />-->
+
+
+    </ScrollView>
 
 </RelativeLayout>

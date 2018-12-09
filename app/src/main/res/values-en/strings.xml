@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aankondigingen_menu">Announcements</string>
+    <string name="frontPageText">" Data is collected. Make sure if Wi-Fi or 4G is on."</string>
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+</resources>
